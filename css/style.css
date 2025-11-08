@@ -5,6 +5,63 @@ body{
     font-family: 'Rubik', sans-serif!important;
     font-size: 14px;
 }
+
+/* Form Styles */
+.my-form {
+    margin-top: 50px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#countryCode {
+    width: 80px !important;
+    margin-right: 10px;
+}
+
+#mobile {
+    flex: 1;
+    width: calc(100% - 90px);
+}
+
+@media (max-width: 480px) {
+    #countryCode {
+        width: 70px !important;
+        display: none;
+    }
+    #mobile {
+        width: calc(100% - 80px) !important;
+    }
+    .input-group {
+        width: 100% !important;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 320px) {
+    #countryCode {
+        width: 60px !important;
+    }
+    #mobile {
+        width: calc(100% - 70px) !important;
+    }
+    .input-group {
+        width: 100% !important;
+    }
+}
+
+/* For tablets and medium screens */
+@media (min-width: 481px) and (max-width: 768px) {
+    #countryCode {
+        width: 75px !important;
+    }
+    #mobile {
+        width: calc(100% - 85px) !important;
+    }
+}
 ul li{list-style: none;}
 ul.disc{margin-bottom: 30px;}
 ul.disc li{

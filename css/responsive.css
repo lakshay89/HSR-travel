@@ -55,8 +55,19 @@
     .navbar-brand>img{width: 150px;}
     .wrapper header.header .offer,
     .wrapper header.header .callus{position: static; text-align: center;}
+    #countryCode{
+    width: 30px !important;
+    margin-right: 10px;
 }
-@media(max-width: 480px){
+}
+@media(max-width: 480px){  #countryCode{
+    width: 30px !important;
+    margin-right: 10px;
+}
     .navbar-fixed-bottom .navbar-collapse, 
     .navbar-fixed-top .navbar-collapse{max-height: 350px;}
+    #countryCode{
+    width: 30px !important;
+    margin-right: 10px;
+}
 }
