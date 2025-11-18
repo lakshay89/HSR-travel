@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open tampu-12seat.html",
-            "file": "d:\\sites\\rentalCars\\hsrtraveldelhi.co.in\\tampu-12seat.html"
+            "file": "d:\\sites\\rentalVehicle\\hsrtraveldelhi.co.in\\tampu-12seat.html"
         }
     ]
 }
